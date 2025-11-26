@@ -1,10 +1,12 @@
 package com.VTR.ecomerce.ecomerce.dto;
 
+import jakarta.validation.constraints.Positive;
 import lombok.Data;
 
 @Data
-public class CartitemDTO {
+public class CartItemDTO {
     private Long id;
+    private Long productId;
+    @Positive
     private Integer quantity;
-    private long productId;
 }
