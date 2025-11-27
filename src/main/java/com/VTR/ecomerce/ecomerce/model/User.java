@@ -77,4 +77,12 @@ public class User implements UserDetails {
     public enum Role{
         USER, ADMIN
     }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
 }
