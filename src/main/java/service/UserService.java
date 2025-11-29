@@ -1,6 +1,6 @@
 package service;
 
-import com.VTR.ecomerce.ecomerce.exception.ChangePasswordRequest;
+import com.VTR.ecomerce.ecomerce.dto.ChangePasswordRequest;
 import com.VTR.ecomerce.ecomerce.exception.ResourceNotFoundException;
 import com.VTR.ecomerce.ecomerce.model.User;
 import com.VTR.ecomerce.ecomerce.repositories.UserRepository;

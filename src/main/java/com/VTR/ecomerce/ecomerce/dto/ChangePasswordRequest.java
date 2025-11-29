@@ -1,4 +1,4 @@
-package com.VTR.ecomerce.ecomerce.exception;
+package com.VTR.ecomerce.ecomerce.dto;
 
 import lombok.Data;
 
